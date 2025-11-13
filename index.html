@@ -81,6 +81,7 @@
             margin: 0.8em 0 0 0;
             border-radius: 4px;
             color: #20504f;
+            font-size: 0.9em;
         }
         .troubleshooting-box {
             background-color: #fffbe7;
@@ -89,6 +90,7 @@
             margin: 0.8em 0 0 0;
             border-radius: 4px;
             color: #7a641f;
+            font-size: 0.9em;
         }
         .warning-box {
             background-color: #fff4f4;
@@ -97,6 +99,7 @@
             margin: 0.8em 0 0 0;
             border-radius: 4px;
             color: #a23a3a;
+            font-size: 0.9em;
         }
         /* --- Base Styling --- */
         body {
@@ -446,7 +449,7 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Create a new executable by pressing the "plus" sign and then <b>add from file</b>.
+                            Create a new executable by pressing the "plus" sign and then <b>add from file</b>. (Figure 5)
                           </div>
                           <div class="step-image">
                             <div class="image-box">
@@ -460,9 +463,9 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Navigate to the file <b>FO4Edit.exe</b> located in the <b>downloads</b> folder. Select it and press <b>"open"</b>. Then, close the window by pressing <b>"OK"</b>.
-                            <div class="tip-box">
-                              <strong>Tip:</strong> (or wherever the extracted zip file is located)
+                            Navigate to the file <b>FO4Edit.exe</b> located in the <b>downloads</b> folder. Select it and press <b>"open"</b>. Then, close the window by pressing <b>"OK"</b>. (Figure 6)
+                            <div class="troubleshooting-box">
+                              <strong>Note:</strong> If you can't find the exe file then you likely didn't download it correctly. You can download the exe file from the link provided above in Equipment and Materials.
                             </div>
                             </div>
                             <div class="step-image">
@@ -477,7 +480,10 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Press the <b>Run button</b>.
+                            Press the <b>Run button</b> (Figure 7). The F04Edit Software will open automatically.
+                            <div class="troubleshooting-box">
+                              <strong>Note:</strong> If the software doesn't open automatically quit out of the MO4 software and repeat from step 1.
+                            </div>
                         </div>
                             <div class="step-image">
                             <div class="image-box">
@@ -490,12 +496,12 @@
                       </li>
                     </ol>
                   </li>
-                  <li>Close the three pop ups that appear.
+                  <li>After opening the software three pop ups will appear
                     <ol class="sub-step-list">
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Click <b>"OK"</b> on the first pop up about patch notes.
+                            Click <b>"OK"</b> on the first pop up about patch notes. (Figure 8)
                           </div>
                           <div class="step-image">
                             <div class="image-box">
@@ -509,9 +515,9 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Click <b>"Close"</b> on the second about the authors.
-                            <div class="tip-box">
-                              <strong>Tip:</strong> To click close, you might have to wait a moment.
+                            Click <b>"Close"</b> on the second about the authors. (Figure 9)
+                            <div class="troubleshooting-box">
+                              <strong>Note:</strong> If you are unable to click the close button, scroll to the bottom of the please read box.
                             </div>
                           </div>
                           <div class="step-image">
@@ -526,7 +532,7 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            The third pop up will show all <b>loaded plugins</b>, <i>ensure that all of them are selected</i> and then press <b>"OK"</b>.
+                            The third pop up (Figure 10) will show all <b>loaded plugins</b>, <i>ensure that all of them are selected</i> and then press <b>"OK"</b>.
                             <div class="tip-box">
                               <strong>Tip:</strong> You are only required to select the mods that you want to modify once you know what those are. The more mods selected, the longer it takes to load.
                             </div>
@@ -542,15 +548,25 @@
                       </li>
                     </ol>
                   </li>
-                  <li>Click on the search bar labeled <b>"Filter by filename"</b>, located in the bottom-left corner of the window. Search for the plugin called <b>MojaveImports.esp.</b> Then click on it to expand its items.</li>
-                  <li>Familiarize yourself with the naming scheme for the different types of items.
+                  <li>
                     <ol class="sub-step-list">
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            To see the scheme, press on the <b>category</b> that fits the modded item to expand all of its items. For example, the category <b>"Ingestibles"</b> for food or other aid (such as NukaCola or Sunset Sarsaparilla).
-                            <div class="tip-box">
-                              <strong>Tip:</strong> Not all categories, like <b>"Spells"</b> or <b>"Object Effect,"</b> have physical items and can be skipped. To check if the entry is a physical item, look for a <b>FULL - Name</b> attribute in the description.
+                            Click on the search bar labeled <b>"Filter by filename"</b>, located in the bottom-left corner of the window.
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="sub-step-box">
+                          <div class="step-content">
+                            Search for the plugin called <b>MojaveImports.esp</b>.
+                          </div>
+                          <div class="step-image">
+                            <div class="image-box">
+                              <div class="image-title">Figure 11</div>
+                              <img src="Figure11.png" class="step-img">
+                              <div class="image-caption">Pop up for mod selection</div>
                             </div>
                           </div>
                         </div>
@@ -558,8 +574,41 @@
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            Click on one of the items such as <b>Ghoul Flesh</b>. This will open a window to the right, listing the available attributes to edit (for visual look at step 6). The columns are split by the different plugins, found in the top row of the table.
+                            Click on it to expand its items.
                           </div>
+                        </div>
+                      </li>
+                    </ol>
+                  </li>
+                  <li>
+                    <ol class="sub-step-list">
+                      <li>
+                        <div class="sub-step-box single-column">
+                          <div class="step-content">
+                            Press on the category <b>"Ingestibles"</b> to expand its items.
+                            <div class="tip-box">
+                              <strong>Tip:</strong> When adding items that are not in these instructions, make sure to find valid tags for the item type.
+                            </div>
+                            <div class="troubleshooting-box">
+                              <strong>Note:</strong> Not all categories, like <b>"Spells"</b> or <b>"Object Effect,"</b> have physical items and can be skipped. To check if the entry is a physical item, look for a <b>FULL - Name</b> attribute in the description.
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="sub-step-box">
+                          <div class="step-content">
+                            Click the item <b>Ghoul Flesh</b>. This will open a window to the right, listing the available attributes to edit (Figure 12). 
+                            <div class="tip-box">
+                              <strong>Tip:</strong> The columns are split by the different plugins, found in the top row of the table.
+                            </div>
+                          </div>
+                            <div class="step-image">
+                            <div class="image-box">
+                              <div class="image-title">Figure 12</div>
+                              <img src="Figure12.png" class="step-img">
+                              <div class="image-caption">Right-clicking on mod to add tags</div>
+                            </div>
                         </div>
                       </li>
                       <li>
@@ -571,17 +620,41 @@
                       </li>
                     </ol>
                   </li>
-                  <li>To add missing tags to items, start by clicking on the <b>"Ingestibles"</b> tab. This will expand all of its items.
+                  <li>In the <b>"Ingestibles"</b> tab, add a tag to all items that are missing a tag in the MojaveImports column.
                     <ol class="sub-step-list">
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Right click on the specific mod you're adding tags for in the left column, and click <b>"Add"</b>.
+                            If the item has the tag in another column, copy the tag to the right most column. (Figure 13)
+                            <div class="tip-box">
+                              <strong>Tip:</strong> In order for the tag to not be overwritten and lost, make sure the right most column always has a tag.
+                            </div>
                           </div>
                           <div class="step-image">
                             <div class="image-box">
-                              <div class="image-title">Figure 2</div>
-                              <img src="Figure 2.png" class="step-img">
+                              <div class="image-title">Figure 13</div>
+                              <img src="Figure13.png" class="step-img">
+                              <div class="image-caption">Copying tag to another column</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="sub-step-box single-column">
+                          <div class="step-content">
+                            Find the attribute <b>FULL - Name</b> and right click on it. Then press edit.
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="sub-step-box">
+                          <div class="step-content">
+                            A pop up will show up that warns about uninformed editing. Press "Yes." (Figure 14)
+                          </div>
+                          <div class="step-image">
+                            <div class="image-box">
+                              <div class="image-title">Figure 14</div>
+                              <img src="Figure14.png" class="step-img">
                               <div class="image-caption">Right-clicking on mod to add tags</div>
                             </div>
                           </div>
@@ -590,22 +663,11 @@
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            Find the attribute <b>FULL - Name</b> and click on it.
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="sub-step-box single-column">
-                          <div class="step-content">
-                            Look at the column where the attribute is blank (but has the background for that row highlighted in <b>green</b>). Double-click on that empty cell.
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="sub-step-box single-column">
-                          <div class="step-content">
                             Type the appropriate tag based on the naming scheme from step 4 (e.g., <b>[RadFood]</b> for radioactive food items).
                           </div>
+                          <div class="tip-box">
+                              <strong>Tip:</strong> With modded items, this step is more complicated. The user has the option to tag it as any valid tag, but the mod listing and object type can help.
+                            </div>
                         </div>
                       </li>
                       <li>
