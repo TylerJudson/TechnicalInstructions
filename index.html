@@ -373,7 +373,7 @@
 
         <section id="intro">
             <h2>Introduction</h2>
-              <p>These instructions are designed for Fallout players seeking to fix a missing tag bug in Fallout 4. Despite being written for Fallout players, these instructions have been written in a way such that anyone can complete them if they know how to install mods through Nexus and use file explorer. The intention of these instructions is to teach how to patch the user’s load order in a way that allows FallUI Sorter to sort all items added or changed in Fallout 4 by their mod list. These instructions will highlight the equipment and materials needed, the completed expected result, the instructions, and a troubleshooting guide.</p>
+              <p>These instructions are designed for Fallout 4 players who need to fix the missing-tag sorting bug that commonly appears in modded load orders. This bug can cause both vanilla and modded items to appear in incorrect categories, making inventory management difficult and reducing the effectiveness of sorting mods like FallUI Item Sorter. The intention of these instructions is to teach how to patch the user’s load order in a way that allows FallUI Sorter to sort all items added or changed in Fallout 4 by their mod list. Successfully completing these instructions requires a basic understanding of how your load order and plugins interact, as well as familiarity with Mod Organizer 2 and FO4Edit. </br> </br> Before beginning, ensure that all required modding tools (found in the section Equipment and Materials) are already installed and properly configured. This guide teaches you how to patch your load order so that FallUI Item Sorter correctly categorizes all items added or modified by your installed plugins. The following sections will highlight the equipment and materials needed, the completed expected result, the instructions, and a troubleshooting guide.</p>
         </section>
 
         <section id="equipment">
@@ -389,7 +389,7 @@
 
         <section id="result">
             <h2>Completed Result</h2>
-            <p>After successfully completing the instructions, the bug that incorrectly overwrites the tags for items will be patched. Your inventory will load correctly, and all items, vanilla and modded, will sort into the proper Sorter categories. See Figure 1 and Figure 2 for a comparison.</p>
+            <p>After completing these instructions, the bug that overwrites item tags will be resolved. Your inventory will load correctly, and all items, both vanilla and modded, will sort into the appropriate FallUI Sorter categories. Figures 1 and 2 provide a visual comparison of the inventory before and after applying the fix.</p>
             <div class="image-comparison">
                 <div>
                     <div class="image-box" style="width: 500px;">
@@ -413,14 +413,14 @@
 
             <div style="margin-bottom: 2em;">
                 <ol class="step-list">
-                  <li>To start, open <b>MO2</b>. Find it by searching <b>"Mod Organizer"</b> on your Windows search bar.
+                  <li>Launch <b>Mod Organizer 2</b>
                     <ol class="sub-step-list">
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            In <b>MO2</b>, ensure all <b>boxes</b> on the right-hand side are selected. (Figure 3)
+                           Once <b>MO2</b> is open, ensure that all <b>checkboxes</b> on the <b>right-hand side</b> are <b>selected</b> (Figure 3).
                             <div class="tip-box">
-                              <strong>Tip:</strong> Note the location of the run button. (But don't click it yet).
+                              <strong>Tip:</strong> Each checkbox represents a loaded plugin in your load order. Make sure all boxes are checked so that FO4Edit can access every plugin.
                             </div>
                           </div>
                           <div class="step-image">
@@ -435,8 +435,7 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Click on the large <b>drop-down</b> box to the left of the <b>run</b> button. Then click <b>&lt;Edit..&gt;</b>. (Figure 4)
-                          </div>
+                            Click on the large <b>drop-down box</b> to the left of the <b>Run</b> button. Then select <b>&lt;Edit..&gt;</b> (Figure 4).                          </div>
                           <div class="step-image">
                             <div class="image-box">
                               <div class="image-title">Figure 4</div>
@@ -449,7 +448,7 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Create a new executable by pressing the "plus" sign and then <b>add from file</b>. (Figure 5)
+                            Create a new <b>executable</b> by pressing the <b>"plus" sign</b> and then selecting <b>Add from file</b> (Figure 5).
                           </div>
                           <div class="step-image">
                             <div class="image-box">
@@ -463,9 +462,9 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Navigate to the file <b>FO4Edit.exe</b> located in the <b>downloads</b> folder. Select it and press <b>"open"</b>. Then, close the window by pressing <b>"OK"</b>. (Figure 6)
+                            Navigate to the file <b>FO4Edit.exe</b> in your <b>Downloads</b> folder. Select it and click <b>"Open"</b>, then close the window by pressing <b>"OK"</b> (Figure 6).<br>
                             <div class="troubleshooting-box">
-                              <strong>Note:</strong> If you can't find the exe file then you likely didn't download it correctly. You can download the exe file from the link provided above in Equipment and Materials.
+                              <strong>Note:</strong> If you cannot find the <b>exe file</b>, it may not have been downloaded correctly. You can download it from the link provided in the <b>Equipment and Materials</b> section.
                             </div>
                             </div>
                             <div class="step-image">
@@ -480,9 +479,9 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Press the <b>Run button</b> (Figure 7). The F04Edit Software will open automatically.
+                            Press the <b>Run</b> button (Figure 7). FO4Edit will open automatically.
                             <div class="troubleshooting-box">
-                              <strong>Note:</strong> If the software doesn't open automatically quit out of the MO4 software and repeat from step 1.
+                              <strong>Note:</strong> If FO4Edit does not launch, close MO2, verify that the <b>FO4Edit.exe</b> path is correct, and try running it again.
                             </div>
                         </div>
                             <div class="step-image">
@@ -496,12 +495,12 @@
                       </li>
                     </ol>
                   </li>
-                  <li>After opening the software three pop ups will appear
+                  <li>When FO4Edit opens, three pop-ups will appear:
                     <ol class="sub-step-list">
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Click <b>"OK"</b> on the first pop up about patch notes. (Figure 8)
+                            Click <b>"OK"</b> on the first pop-up regarding <b>patch notes</b> (Figure 8).
                           </div>
                           <div class="step-image">
                             <div class="image-box">
@@ -515,9 +514,9 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Click <b>"Close"</b> on the second about the authors. (Figure 9)
+                            Click <b>"Close"</b> on the second pop-up about the <b>authors</b> (Figure 9).
                             <div class="troubleshooting-box">
-                              <strong>Note:</strong> If you are unable to click the close button, scroll to the bottom of the please read box.
+                              <strong>Note:</strong> If the <b>Close</b> button is unresponsive, scroll to the bottom of the "Please Read" box and try again.
                             </div>
                           </div>
                           <div class="step-image">
@@ -532,9 +531,9 @@
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            The third pop up (Figure 10) will show all <b>loaded plugins</b>, <i>ensure that all of them are selected</i> and then press <b>"OK"</b>.
+                            The third pop-up (Figure 10) displays all loaded <b>plugins</b>. Ensure that all plugins are <b>selected</b>, then press <b>"OK"</b>.<br>
                             <div class="tip-box">
-                              <strong>Tip:</strong> You are only required to select the mods that you want to modify once you know what those are. The more mods selected, the longer it takes to load.
+                              <strong>Tip:</strong> You only need to select the mods you intend to modify. Selecting more plugins will increase load time.
                             </div>
                           </div>
                           <div class="step-image">
@@ -553,14 +552,14 @@
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            Click on the search bar labeled <b>"Filter by filename"</b>, located in the bottom-left corner of the window.
+                            Click on the <b>search bar</b> labeled <b>"Filter by filename"</b> located in the bottom-left corner of the FO4Edit window.
                           </div>
                         </div>
                       </li>
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Search for the plugin called <b>MojaveImports.esp</b>.
+                            Type <b>MojaveImports.esp</b> into the search bar to locate the plugin.
                           </div>
                           <div class="step-image">
                             <div class="image-box">
@@ -574,7 +573,7 @@
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            Click on it to expand its items.
+                            Click on <b>MojaveImports.esp</b> to expand its list of records.
                           </div>
                         </div>
                       </li>
@@ -585,71 +584,51 @@
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            Press on the category <b>"Ingestibles"</b> to expand its items.
-                            <div class="tip-box">
-                              <strong>Tip:</strong> When adding items that are not in these instructions, make sure to find valid tags for the item type.
-                            </div>
-                            <div class="troubleshooting-box">
-                              <strong>Note:</strong> Not all categories, like <b>"Spells"</b> or <b>"Object Effect,"</b> have physical items and can be skipped. To check if the entry is a physical item, look for a <b>FULL - Name</b> attribute in the description.
-                            </div>
+                            Press on the category <b>"Ingestible"</b> to expand its items.
                           </div>
                         </div>
                       </li>
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            Click the item <b>Ghoul Flesh</b>. This will open a window to the right, listing the available attributes to edit (Figure 12). 
+                            Click the item <b>Ghoul Flesh</b>. This will open a window on the right showing its editable attributes (Figure 12).
                             <div class="tip-box">
-                              <strong>Tip:</strong> The columns are split by the different plugins, found in the top row of the table.
+                              <strong>Tip:</strong> The columns represent <b>different plugins</b>, listed across the top row of the table.
                             </div>
                           </div>
                             <div class="step-image">
                             <div class="image-box">
                               <div class="image-title">Figure 12</div>
                               <img src="Figure12.png" class="step-img">
-                              <div class="image-caption">Right-clicking on mod to add tags</div>
+                              <div class="image-caption">Clicking on mod to add tags</div>
                             </div>
                         </div>
                       </li>
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            Notice the row with the first entry <b>FULL - Name</b>. This is an important row that shows the tag used for sorting. For example, food items that inflict radiation damage are labeled with the tag <b>[RadFood]</b>.
+                            Locate the row labeled <b>FULL – Name</b>. This row displays the sorting tag. For example, food items that inflict radiation damage use the tag <b>[RadFood]</b>.
                           </div>
                         </div>
                       </li>
                     </ol>
                   </li>
-                  <li>In the <b>"Ingestibles"</b> tab, add a tag to all items that are missing a tag in the MojaveImports column.
+                  <li>
                     <ol class="sub-step-list">
-                      <li>
-                        <div class="sub-step-box">
-                          <div class="step-content">
-                            If the item has the tag in another column, copy the tag to the right most column. (Figure 13)
-                            <div class="tip-box">
-                              <strong>Tip:</strong> In order for the tag to not be overwritten and lost, make sure the right most column always has a tag.
-                            </div>
-                          </div>
-                          <div class="step-image">
-                            <div class="image-box">
-                              <div class="image-title">Figure 13</div>
-                              <img src="Figure13.png" class="step-img">
-                              <div class="image-caption">Copying tag to another column</div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            Find the attribute <b>FULL - Name</b> and right click on it. Then press edit.
+                            Right-click the cell labeled <b>FULL – Name</b> and select <b>Edit</b>.
                           </div>
                         </div>
                       </li>
                       <li>
                         <div class="sub-step-box">
                           <div class="step-content">
-                            A pop up will show up that warns about uninformed editing. Press "Yes." (Figure 14)
+                            Press <b>"Yes, I'm absolutely sure"</b> on the pop-up warning about uninformed editing (Figure 14). 
+                             <div class="troubleshooting-box">
+                              <strong>Note: </strong> The changes you will make are minor and affect only the <b>inventory sorting system</b>. They will not create any harmful or irreversible effects.
+                            </div>
                           </div>
                           <div class="step-image">
                             <div class="image-box">
@@ -663,10 +642,31 @@
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            Type the appropriate tag based on the naming scheme from step 4 (e.g., <b>[RadFood]</b> for radioactive food items).
+                            Locate the sorting tag in the <b>FULL – Name</b> row. The tag appears inside <b>[]</b>.
+                            <div class="tip-box">
+                              <strong>Tip:</strong> This tag typically appears in the <b>second column from the right</b>.
+                            </div>
                           </div>
-                          <div class="tip-box">
-                              <strong>Tip:</strong> With modded items, this step is more complicated. The user has the option to tag it as any valid tag, but the mod listing and object type can help.
+                        </div>
+                      </li>
+                      <li>
+                        <div class="sub-step-box">
+                          <div class="step-content">
+                            Add the tag to the <b>right-most column</b> by inserting it at the beginning of the text in that cell (e.g., <b>[RadFood]</b> for radioactive food items).
+                            <div class="tip-box">
+                            <strong>Tip:</strong> Always include the <b>[]</b> brackets when adding a tag.
+                          </div>
+                          <div class="warning-box">
+                              <strong>Warning:</strong> To prevent the tag from being overwritten, the <b>right-most column must always contain a tag</b>.
+                            </div>
+                          </div>
+                          
+                          <div class="step-image">
+                              <div class="image-box">
+                                <div class="image-title">Figure 13</div>
+                                <img src="Figure13.png" class="step-img">
+                                <div class="image-caption">Copying tag to another column</div>
+                              </div>
                             </div>
                         </div>
                       </li>
@@ -679,25 +679,49 @@
                       </li>
                     </ol>
                   </li>
-                  <li>Find all desired items to add their missing tags.</li>
-                  <li>Once complete, save all the files by clicking on the <b>three lines</b> at the top-left side of the software and then <b>save</b>.
+                  <li>Identify and fix all items that are missing sorting tags.
                     <ol class="sub-step-list">
                       <li>
                         <div class="sub-step-box single-column">
                           <div class="step-content">
-                            Select all the files that you want to save then press <b>"OK"</b>
+                            Open each <b>category</b> one at a time and scan its entries for items that are <b>missing tags</b>.
+                            <div class="tip-box">
+                              <strong>Tip:</strong> Items missing tags are often <b>highlighted in red</b>.
+                            </div>
+                            <div class="troubleshooting-box">
+                              <strong>Note:</strong> Only physical items require tags. To confirm this, check whether the item has a <b>FULL – Name</b> attribute in its description. If it does not, you can skip it. Categories like <b>Spells</b> or <b>Object Effect</b> often contain non-physical entries.
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="sub-step-box single-column">
+                          <div class="step-content">
+                            Click an item to display its <b>attributes</b> in the right-hand panel.
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="sub-step-box single-column">
+                          <div class="step-content">
+                            If the item is missing a tag, follow the steps in <b>Step 5</b> to add the correct tag to the <b>right-most column</b>.
+                            <div class="tip-box">
+                              <strong>Tip:</strong> Only tag the items you intend to modify. Prioritize items you commonly use or that cause sorting problems.
+                            </div>
                           </div>
                         </div>
                       </li>
                     </ol>
                   </li>
-                  <li>Boot up Fallout 4 and check that the tags are sorting items in the correct places.</li>
+                  <li>Once you have finished adding tags to all desired items, click on the <b>three horizontal lines</b> in the <b>top-left corner</b> of FO4Edit, then select <b>Save</b>.
+                  </li>
+                  <li>Boot up <b>Fallout 4</b> and check your inventory to confirm that all items are now sorting into their <b>correct categories</b>.</li>
                 </ol>
             </div>
         </section>
 
         <section id="notes">
-            <h2>Notes</h2>
+            <h2>Troubleshooting Guide</h2>
             <p>These instructions assume you have already installed FO4Edit and have basic familiarity with mod management through MO2. If you are new to modding, it is recommended to back up your save files before proceeding.</p>
             <p>The process of adding tags can be time-consuming depending on how many mods you have installed. Plan to spend 30-60 minutes if you have a large mod list. You may want to focus on frequently used items first.</p>
             <p>Some mods may already have proper tags from other patches or updates. Always check existing tags before making changes to avoid conflicts or duplicates in your load order.</p>
